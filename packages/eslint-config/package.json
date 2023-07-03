@@ -1,0 +1,25 @@
+{
+  "name": "@ryan/eslint-config",
+  "version": "1.0.0",
+  "description": "eslint config of ryan",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "eslint",
+    "tslint",
+    "config",
+    "ryan"
+  ],
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.60.1",
+    "@typescript-eslint/parser": "^5.60.1",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-vue": "^9.15.1",
+    "vue-eslint-parser": "^9.3.1"
+  },
+  "author": "",
+  "license": "ISC"
+}
