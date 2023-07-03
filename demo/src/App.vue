@@ -11,9 +11,6 @@ import { Button } from '@ryan/components'
       <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
     </a>
     <Button>123123</Button>
-    <Button>333</Button>
-    <Button>222</Button>
-    <Button>4444</Button>
   </div>
 </template>
 
