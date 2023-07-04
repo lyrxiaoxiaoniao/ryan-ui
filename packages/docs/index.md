@@ -5,13 +5,16 @@ hero:
   name: Ryan
   text:
   tagline: 基于 Vue 3，面向设计师和开发者的组件库
-  # actions:
-  #   - theme: brand
-  #     text: Why Ryan
-  #     link: /articles/组件库环境搭建
-  #   - theme: alt
-  #     text: 快速开始
-  #     link: /component/button
+  # image:
+  #   src: /images/logo-rect.png
+  #   alt: Ryan
+  actions:
+    - theme: brand
+      text: View on Githib
+      link: https://github.com/lyrxiaoxiaoniao/ryan-ui
+    - theme: alt
+      text: 快速开始
+      link: zh/component/button
 
 features:
   - icon: ⚡️
