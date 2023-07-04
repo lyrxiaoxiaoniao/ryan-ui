@@ -1,13 +1,13 @@
 <script setup lang="ts">
-import { Button } from '@ryan/components'
+import { RyanButton } from '@ryan/components'
 </script>
 
 <template>
   <div>
-    <Button>123123</Button>
-    <Button>333333</Button>
-    <Button>44444444</Button>
-    <Button>22222</Button>
+    <RyanButton>123123</RyanButton>
+    <RyanButton>333333</RyanButton>
+    <RyanButton>44444444</RyanButton>
+    <RyanButton>22222</RyanButton>
   </div>
 </template>
 

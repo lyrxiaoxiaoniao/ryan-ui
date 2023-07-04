@@ -1,0 +1,17 @@
+<template> </template>
+
+<script lang="ts" setup>
+  import { createNamespace } from '@ryan/utils'
+  import { <%= name %>Props } from './<%= fileName %>'
+  defineOptions({
+    name: 'Ryan<%= name %>'
+  })
+
+  defineProps(<%= name %>Props)
+
+  const { n, classes } = createNamespace('<%= fileName %>')
+</script>
+
+<style lang="less">
+  @import './<%= fileName %>.less';
+</style>

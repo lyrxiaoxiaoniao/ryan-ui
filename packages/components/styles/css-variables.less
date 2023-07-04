@@ -1,0 +1,63 @@
+@import './var.less';
+
+:root {
+  --van-color-white: #ffffff;
+  --van-color-black: #000000;
+  --van-bg-color: var(--van-color-white);
+  // Padding
+  --van-padding-base: 4px;
+  --van-padding-small: 12px;
+  --van-padding-middle: 16px;
+  --van-padding-large: 24px;
+  --van-line-height-small: 18px;
+  --van-line-height-middle: 20px;
+  --van-line-height-large: 22px;
+
+  // Border
+  --van-border-color: #ebedf0;
+  --van-border-width: 1px;
+  --van-border-style: solid;
+  --van-border: var(--van-border-width) solid var(--van-border-color);
+  --van-radius-base: 4px;
+  --van-radius-small: 2px;
+  --van-radius-middle: 4px;
+  --van-radius-large: 8px;
+  --van-radius-round: 20px;
+  --van-radius-max: 999px;
+
+  --van-active-opacity: 0.6;
+  --van-disabled-opacity: 0.5;
+  --van-overlay-color-lighter: rgba(0, 0, 0, 0.5);
+  --van-box-shadow: 0px 12px 32px 4px rgba(0, 0, 0, 0.04), 0px 8px 20px rgba(0, 0, 0, 0.08);
+  --van-box-shadow-light: 0px 0px 12px rgba(0, 0, 0, 0.12);
+  --van-font-line-height-primary: 24px;
+  --van-transition-duration: 0.3s;
+
+  // Font
+  each(@fontSizes, {
+    --van-font-size-@{key}: @value;
+  });
+
+  each(@fontColors, {
+  --van-text-color-@{key}: @value;
+});
+
+  each(@disabledColors, {
+  --van-disabled-@{key}-color: @value;
+});
+
+  each(@iconSizes, {
+  --van-icon-size-@{key}: @value;
+});
+
+  @a: 3, 5, 7, 8, 9;
+
+  each(@colors, {
+  --van-color-@{key}: @value;
+  --van-color-@{key}-3: tint(@value, 30%);
+  --van-color-@{key}-5: tint(@value, 50%);
+  --van-color-@{key}-7: tint(@value, 70%);
+  --van-color-@{key}-8: tint(@value, 80%);
+  --van-color-@{key}-9: tint(@value, 90%);
+});
+}

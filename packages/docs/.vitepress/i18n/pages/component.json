@@ -1,0 +1,39 @@
+{
+  "zh": {
+    "basic": {
+      "text": "Basic 基础组件",
+      "children": [
+        {
+          "link": "/button",
+          "text": "Button 按钮"
+        },
+        {
+          "link": "/icon",
+          "text": "Icon 图标"
+        }
+      ]
+    },
+    "form": {
+      "text": "Form 表单组件",
+      "children": []
+    },
+    "data": {
+      "text": "Data 数据展示",
+      "children": [
+        {
+          "link": "/collapse",
+          "text": "Collapse 折叠面板"
+        }
+      ]
+    },
+    "feedback": {
+      "text": "Feedback 反馈组件",
+      "children": [
+        {
+          "link": "/message",
+          "text": "Message 消息提示"
+        }
+      ]
+    }
+  }
+}

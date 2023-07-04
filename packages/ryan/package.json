@@ -1,0 +1,45 @@
+{
+  "name": "ryan",
+  "version": "1.0.0",
+  "description": "A Component Library for Vue 3",
+  "keywords": [
+    "ryan",
+    "component library",
+    "ui framework",
+    "ui",
+    "vue"
+  ],
+  "homepage": "",
+  "bugs": {
+    "url": "https://www.baidu.com"
+  },
+  "license": "MIT",
+  "main": "dist/index.umd.js",
+  "module": "dist/index.es.js",
+  "unpkg": "dist/index.umd.js",
+  "files": [
+    "dist"
+  ],
+  "exports": {
+    ".": {
+      "import": "./dist/index.es.js",
+      "require": "./dist/index.umd.js",
+      "types": "./dist/types/ryan/index.d.ts"
+    },
+    "./*": "./*"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "style": "dist/style.css",
+  "scripts": {},
+  "author": "ryan",
+  "peerDependencies": {
+    "vue": "^3.2.47"
+  },
+  "typings": "dist/types/ryan/index.d.ts"
+}

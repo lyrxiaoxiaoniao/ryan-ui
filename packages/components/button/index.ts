@@ -1,10 +1,7 @@
 export * from './src/button'
-import type { App } from 'vue'
+import { withInstall } from '@ryan/utils'
 import Button from './src/button.vue'
 
-Button.install = (app: App) => {
-  app.component(Button.name, Button)
-}
+export const RyanButton = withInstall(Button)
 
-export { Button }
-export default Button
+export default RyanButton

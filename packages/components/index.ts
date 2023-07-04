@@ -1,4 +1,6 @@
+import './styles/common.less'
 export * from './button'
-export function add(a: number, b: number) {
-  return a + b
-}
+export * from './icon'
+export * from './message'
+export * from './ripple'
+export * from './collapse'

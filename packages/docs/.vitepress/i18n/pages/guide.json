@@ -1,0 +1,17 @@
+{
+  "zh": {
+    "intro": {
+      "text": "基础",
+      "children": [
+        {
+          "text": "设计",
+          "link": "/design"
+        },
+        {
+          "text": "开发指南",
+          "link": "/dev-guide"
+        }
+      ]
+    }
+  }
+}

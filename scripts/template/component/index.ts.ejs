@@ -1,0 +1,7 @@
+export * from './src/<%= fileName %>'
+import { withInstall } from '@ryan/utils'
+import <%= name %> from './src/<%= fileName %>.vue'
+
+export const Ryan<%= name %> = withInstall(<%= name %>)
+
+export default Ryan<%= name %>
